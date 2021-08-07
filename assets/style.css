@@ -1,0 +1,94 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Css reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* custom vars */
+:root {
+  --color-background: #FFFFFF;
+  --color-dev: #D2872C;
+  --color-menu: #3F4044;
+  --color-title: #766F68;
+  --color-background-button:#D2872C;
+  --color-text-p: #766F68; 
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: 'Roboto', sans-serif; 
+}
+
+header {
+  margin: 2.5rem 2.1875rem 0;
+  /* background: rebeccapurple; */
+
+}
+
+a {
+  font-size: 1.4375rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-dev);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  font-size: 1.3125rem
+}
+
+li {
+  padding: .8rem;
+  list-style: none;
+  color: var(--color-menu);
+}
+
+#wrapper{
+  height: 24.375rem;
+
+  border-radius: 1.875rem;
+  display: grid;
+  grid-template-columns: 41% 59%;
+
+  margin: 2.8125rem 4.5rem 0;
+}
+
+h1 {
+  color: var(--color-title);
+  font-size: 2.8125rem;
+  font-weight: bold;
+
+  margin-top: 1.875rem;
+}
+
+p {
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
+  color: var(--color-text-p);
+}
+
+button {
+  background-color: var(--color-background-button);
+  color: white;
+  border-radius: 0.5rem;
+  width: 13.25rem;
+  height: 3.125rem;
+  border: none;
+
+  margin-top: 2.375rem;
+  font-weight: bold;
+}
+
+img {
+  margin-top: 2.5rem;
+}
